@@ -27,7 +27,22 @@
 Після реєстрації ви можете увійти до власного облікового запису за адресою <a href = "https://it-sertification.innovations.kh.ua/wp-login.php" target = "_blank">https://it-sertification.innovations.kh.ua/wp-login.php</a> за допомогою логіна та паролю, які ви вказали при реєстрації:  
 <img src = "img/expert08.png" width = "1000">  
 
+## Відбір силабусу для рецензування
+Для того, щоб зробити рецензію ви маєте обрати поданий на рецензування силабус. Зробити ви це можете на сторінці силабусів: <a href = "https://it-sertification.innovations.kh.ua/silabuses/" target = "_blank">https://it-sertification.innovations.kh.ua/silabuses/</a>. Наприклад, ви обрали силабус за курсом Web дизайн.  
+<img src = "img/expert11.png" width = "1000">  
+
+Перейдя за посиланням ви можете побачити всю інформацію відносно силабусу, поданого на розгляд.  
+<img src = "img/expert12.png" width = "1000">  
+
+
 ## Робота в особистому кабінеті
 При вході ви попадаєте в стандартний інтерфейс CMS WordPress. Для надання рецензії вам треба перейти до меню **Reviews**.  
 <img src = "img/expert09.png" width = "1000">  
+
+У розділі **Reviews** необхідно натиснути кнопку **"Add new Review"**  
+<img src = "img/expert10.png" width = "1000">  
+
+
+  
+Вже у вашому особистому кабінеті, при додаванні нової рецензії ви маєте обрати силаб
 
