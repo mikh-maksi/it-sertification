@@ -22,3 +22,12 @@
 <img src = "img/expert06.png" width = "600">  
 Після збереження паролю вам буде запропонвоано увійти на сайт через відповідну форму входу.  
 <img src = "img/expert07.png" width = "600">  
+
+## Вхід до облікового запису
+Після реєстрації ви можете увійти до власного облікового запису за адресою <a href = "https://it-sertification.innovations.kh.ua/wp-login.php" target = "_blank">https://it-sertification.innovations.kh.ua/wp-login.php</a> за допомогою логіна та паролю, які ви вказали при реєстрації:  
+<img src = "img/expert08.png" width = "600">  
+
+## Робота в особистому кабінеті
+При вході ви попадаєте в стандартний інтерфейс CMS WordPress. Для надання рецензії вам треба перейти до меню **Reviews**.  
+<img src = "img/expert09.png" width = "600">  
+
