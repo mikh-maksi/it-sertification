@@ -4,30 +4,30 @@
 ## Реєстрація
 ### Заповнення форми реєстрації
 Для реєстрації на даному ресурсі необхідно перейти за посиланням: <a href = "https://it-sertification.innovations.kh.ua/wp-login.php?action=register" target = "_blank">https://it-sertification.innovations.kh.ua/wp-login.php?action=register</a>  
-<img src = "img/expert01.png" width = "600">  
+<img src = "img/expert01.png" width = "1000">  
 Введіть бажаний логін, ваш email та натисніть кнопку "Зареєструватись"
-<img src = "img/expert02.png" width = "600">  
+<img src = "img/expert02.png" width = "1000">  
 Після натиснення кнопки "Зареєструватись" ви отримаєте повідомлення, про те, що вам необхідно перевірити власну поштову скриньку.  
-<img src = "img/expert03.png" width = "600">  
+<img src = "img/expert03.png" width = "1000">  
 
 ### Поштова скринька
 На вашу поштову скриньку надійде повідомлення  
-<img src = "img/expert04.png" width = "600">  
+<img src = "img/expert04.png" width = "1000">  
 В якому вам необхідно буде перейти за посиланням  
-<img src = "img/expert05.png" width = "600">  
+<img src = "img/expert05.png" width = "1000">  
 
 ### Встановлення паролю
 Після переходу за посиланням з вашої поштової скриньки вам буде запропоновано встановити пароль вашого облікового запису.  
 Ви можете скопіювати собі за зберекти автоматично згенерований пароль, або ж ввести власний. Після цього - натисніть "Зберегти пароль"  
-<img src = "img/expert06.png" width = "600">  
+<img src = "img/expert06.png" width = "1000">  
 Після збереження паролю вам буде запропонвоано увійти на сайт через відповідну форму входу.  
-<img src = "img/expert07.png" width = "600">  
+<img src = "img/expert07.png" width = "1000">  
 
 ## Вхід до облікового запису
 Після реєстрації ви можете увійти до власного облікового запису за адресою <a href = "https://it-sertification.innovations.kh.ua/wp-login.php" target = "_blank">https://it-sertification.innovations.kh.ua/wp-login.php</a> за допомогою логіна та паролю, які ви вказали при реєстрації:  
-<img src = "img/expert08.png" width = "600">  
+<img src = "img/expert08.png" width = "1000">  
 
 ## Робота в особистому кабінеті
 При вході ви попадаєте в стандартний інтерфейс CMS WordPress. Для надання рецензії вам треба перейти до меню **Reviews**.  
-<img src = "img/expert09.png" width = "600">  
+<img src = "img/expert09.png" width = "1000">  
 
