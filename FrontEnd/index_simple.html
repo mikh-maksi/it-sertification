@@ -69,9 +69,17 @@ document.addEventListener("DOMContentLoaded", function () {
                 author_text = item.acf.rozrobnyk_programy;
                 author.innerHTML = author_text;
 
+                const annotation = document.createElement("p");
+                annotation.classList.add("annotation-item");
+
+                annotation_text = item.acf.Annotation;
+                annotation.innerHTML = annotation_text;
+
+
+
                 div.appendChild(title);
-                
                 div.appendChild(author);
+                div.appendChild(annotation);
 
                 container.appendChild(div);
             });
