@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Silabus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .silabus-item {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+        .silabus-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .silabus-content {
+            margin-top: 10px;
+        }
+        .author-item{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Силабуси</h1>
+<div id="silabus-container">Завантаження...</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const container = document.getElementById("silabus-container");
+
+    fetch("https://it-sertification.innovations.kh.ua/wp-json/wp/v2/silabus")
+        .then(response => {
+            console.log(response);
+            if (!response.ok) {
+                throw new Error("Помилка при отриманні даних");
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log(data);
+            container.innerHTML = "";
+
+            if (!data.length) {
+                container.innerHTML = "<p>Немає доступних силабусів</p>";
+                return;
+            }
+
+            data.forEach(item => {
+                const div = document.createElement("div");
+                div.classList.add("silabus-item");
+
+                const title = document.createElement("div");
+                title.classList.add("silabus-title");
+                title_text = item.title.rendered;
+                
+                title.innerHTML = title_text ;
+
+                const author = document.createElement("p");
+                author.classList.add("author-item");
+
+                author_text = item.acf.rozrobnyk_programy;
+                author.innerHTML = author_text;
+
+                div.appendChild(title);
+                
+                div.appendChild(author);
+
+                container.appendChild(div);
+            });
+        })
+        .catch(error => {
+            container.innerHTML = "<p>Помилка завантаження даних</p>";
+            console.error(error);
+        });
+});
+</script>
+
+</body>
+</html>
